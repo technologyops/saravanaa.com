@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" class=""><!--<![endif]-->
+
+
+
+ 
+
+<head>
+
+	<meta charset="utf-8">
+
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <meta name="description" content="">
+
+    <meta name="author" content="">
+
+
+
+	<title>Saravanaa Aircon Pvt.Ltd</title>
+
+
+
+	<!-- Standard Favicon -->
+
+	<!-- <link rel="icon" type="image/x-icon" href="images/favicon.png" /> -->
+
+	
+
+	<!-- For iPhone 4 Retina display: -->
+
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114x114-precomposed.html">
+
+	
+
+	<!-- For iPad: -->
+
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72x72-precomposed.html">
+
+	
+
+	<!-- For iPhone: -->
+
+	<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57x57-precomposed.html">	
+
+	
+
+	<link rel="stylesheet" type="text/css" href="libraries/lightslider/lightslider.min.css" />
+
+	
+
+	<link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+
+ 
+
+	<!-- RS5.0 Layers and Navigation Styles -->
+
+	<link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+
+	<link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+
+	<link rel="stylesheet" type="text/css" href="revolution/css/main.css">
+
+	<link rel="stylesheet" type="text/css" href="revolution/css/animate.css">
+
+	 <link rel="stylesheet" href="css/animations.css">
+
+	<!-- Custom - Theme CSS -->
+
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+
+ <script src="js/modernizr-2.6.2.min.js"></script>
+
+	<!--[if lt IE 9]>
+
+		<script src="js/html5/respond.min.js"></script>
+
+    <![endif]-->
+
+	<style>
+
+	// Box shadow helper
+
+@mixin BoxShadowHelper($level: 1){
+
+  @if $level == 1 {
+
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+
+  }
+
+  @if $level == 2 {
+
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+
+  }
+
+}
+
+a {transition: .25s all;}
+
+.card {
+
+  overflow: hidden;
+
+  @include BoxShadowHelper(1);
+
+  transition: .25s box-shadow;
+
+  &:focus,
+
+  &:hover {@include BoxShadowHelper(2);}
+
+}
+
+.card-inverse .card-img-overlay {
+
+  background-color: rgba(#333,.85);
+
+  border-color: rgba(#333,.85);
+
+}
+
+.zoom_img img{
+
+margin:50px;
+
+height:100px;
+
+width:100px;
+
+-moz-transition:-moz-transform 0.5s ease-in; 
+
+-webkit-transition:-webkit-transform 0.5s ease-in; 
+
+-o-transition:-o-transform 0.5s ease-in;
+
+}
+
+.zoom_img img:hover{
+
+-moz-transform:scale(2); 
+
+-webkit-transform:scale(2);
+
+-o-transform:scale(2);
+
+}
+
+button{
+
+        padding: 0.8em 0em;
+
+        width:100px;
+
+        background: #25408e !important;
+
+        border-radius:15px;
+
+        border:0;
+
+        color:#fff;
+
+        font-size:14px;;
+
+        font-family: Arial,Helvetica,sans-serif;
+
+        font-weight:bold;
+
+        cursor:pointer;
+
+        margin:1em 2em;
+
+        text-transform:uppercase;
+
+}
+
+.light{
+
+background: -moz-linear-gradient(-45deg,  #ff6e00 0%, #ff6e00 40%, #ffffff 50%, #ff6e00 60%, #ff6e00 100%);
+
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ff6e00), color-stop(40%,#ff6e00), color-stop(50%,#ffffff), color-stop(60%,#ff6e00), color-stop(100%,#ff6e00));
+
+background: -webkit-linear-gradient(-45deg,  #ff6e00 0%,#ff6e00 40%,#ffffff 50%,#ff6e00 60%,#ff6e00 100%);
+
+background: -o-linear-gradient(-45deg,  #ff6e00 0%,#ff6e00 40%,#ffffff 50%,#ff6e00 60%,#ff6e00 100%);
+
+background: -ms-linear-gradient(-45deg,  #ff6e00 0%,#ff6e00 40%,#ffffff 50%,#ff6e00 60%,#ff6e00 100%);
+
+background: linear-gradient(135deg,  #ff6e00 0%,#ff6e00 40%,#ffffff 50%,#ff6e00 60%,#ff6e00 100%);
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6e00', endColorstr='#ff6e00',GradientType=1 );
+
+background-repeat: no-repeat;  
+
+background-position:0px;
+
+background-size:300%;  
+
+}
+
+
+
+.light:hover{
+
+  animation:light 1s;
+
+    -webkit-animation:light 1s;
+
+  
+
+}
+
+/*-- Footer css
+
+============================================--*/
+
+.footer_top{
+
+    background-color: #323232;
+
+    padding: 100px 0 80px;
+
+}
+
+.footer_top .col-sm-3{
+
+    margin-bottom: 20px;
+
+}
+
+.footer_top ul{
+
+    padding: 0;
+
+}
+
+.footer_top h3{
+
+    font-size: 16px;
+
+    line-height: 1.5;
+
+    color: #cfa144;
+
+    font-weight: 700;
+
+    text-transform:capitalize !important;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 20px;
+
+}
+
+.footer_top p{
+
+    font-size: 13px;
+
+    line-height: 30px;
+
+    color: #666666;
+
+    font-weight: 600;
+
+    letter-spacing: 1px;
+
+    padding-right: 20px;
+
+}
+
+.footer_top li a{
+
+    font-size: 13px;
+
+    line-height: 30px;
+
+    color: #bbb;
+
+    font-weight: 600;
+
+    letter-spacing: 1px;
+
+    text-transform: capitalize;
+
+    -webkit-transition: color .3s;
+
+    -moz-transition: color .3s;
+
+    -ms-transition: color .3s;
+
+    transition: color .3s;
+
+}
+
+.footer_top li a:hover{
+
+    color: #25408e;
+
+    text-decoration: none;
+
+}
+
+.footer_top li a .fa{
+
+    width: 20px;
+
+    height: 21px;
+
+    font-size: 12px;
+
+    line-height: 21px;
+
+    color: #ffffff;
+
+    background-color: #666666;
+
+    text-align: center;
+
+    margin-right: 20px;
+
+    -webkit-border-radius: 3px;
+
+    -moz-border-radius: 3px;
+
+    -ms-border-radius: 3px;
+
+    border-radius: 3px;
+
+}
+
+.footer_bottom{
+
+    background-color: #222222;
+
+    padding: 20px;
+
+}
+
+.footer_bottom h5{
+
+    font-size: 12px;
+
+    line-height: 1;
+
+    color: #888888;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    margin-top: 7px;
+
+    margin-bottom: 3px;
+
+}
+
+.footmenu ul li {
+
+	list-style-type: none !important;
+
+	
+
+}
+
+.footer_bottom h6{
+
+    font-size: 11px;
+
+    line-height: 15px;
+
+    color: #888888;
+
+    text-transform: capitalize;
+
+    letter-spacing: 2px;
+
+}
+
+
+
+
+
+@media screen and (max-width: 767px){
+
+    .footer_top{
+
+        padding: 60px 0 40px;
+
+    }
+
+}
+
+	</style>
+
+</head>
+
+
+
+<body data-offset="200" data-spy="scroll" data-target=".ow-navigation">
+
+<div class="main-box">
+
+	<a id="top"></a>
+
+	
+
+
+
+
+
+	<header id="header" class="header-section header-section-1 container-fluid no-padding">
+
+		<!--<!-- Top Header -->
+
+		<div class="top-header container-fluid no-padding">
+
+			
+
+		</div>
+
+	
+
+		<!-- Menu Block -->
+
+		<div class="container-fluid no-padding menu-block">
+
+			<!-- Container -->
+
+			<div class="container">
+
+				<!-- nav -->
+
+				<nav class="navbar navbar-default ow-navigation navbars">
+
+					<div class="navbar-header">
+
+						<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+
+							<span class="sr-only">Toggle navigation</span>
+
+							<span class="icon-bar"></span>
+
+							<span class="icon-bar"></span>
+
+							<span class="icon-bar"></span>
+
+						</button>
+
+						<a href="index.html" class="navbar-brand"><img src="images/logo.png" alt="Logo" height="230px" width="230px"/> <span style="color:#fff;font-size:18px;"></span></a></div>
+
+					
+
+					<div class="navbar-collapse collapse navbar-right" id="navbar">
+
+						<ul class="nav navbar-nav">
+
+							<li class="active dropdown mega-dropdown">
+
+								<a href="aboutus.html"  class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
+
+								<i class="ddl-switch fa fa-angle-down"></i>
+
+								
+
+							</li>
+
+							<li class="dropdown">
+
+								<a href="#"   class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">HVAC</a>
+
+								<i class="ddl-switch fa fa-angle-down"></i>
+
+								<ul class="dropdown-menu">
+
+									<li class="dropdown"><a href="commercial.html">COMMERCIAL</a>
+
+									
+
+								</li>
+
+
+
+									<li><a href="residential.html">RESIDENTIAL</a></li>
+
+									
+
+								</ul>
+
+							</li>
+
+							<!--<li class="dropdown">
+
+								<a href="#" title="Fire & Security" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">FIRE & SECURITY</a>
+
+								<i class="ddl-switch fa fa-angle-down"></i>
+
+								<ul class="dropdown-menu">
+
+									 <li class="dropdown"><a href="fire&security.html">FIRE PRODUCTS</a></li> 
+
+
+
+									<li><a href="firefightingsystem.html">FIRE FIGHTING SYSTEM</a></li>
+
+									
+
+								</ul>
+
+							</li>-->
+
+							
+
+							
+
+							<li class="dropdown">
+
+								<a href="firefightingsystem.html"   class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">FIRE FIGHTING SYSTEM</a>
+
+								<i class="ddl-switch fa fa-angle-down"></i>
+
+								
+
+							</li>
+
+
+
+							<li class="dropdown">
+
+								<a href="plumbing&heatpump.html"  class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">PLUMBING & HEAT PUMP</a>
+
+								<i class="ddl-switch fa fa-angle-down"></i>
+
+								
+
+							</li>
+
+							
+
+							<li class="dropdown">
+
+								<a href="#"   class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">SOLAR</a>
+
+								<i class="ddl-switch fa fa-angle-down"></i>
+
+								<ul class="dropdown-menu">
+
+									
+
+									<li><a href="tata.html">ELECTRICAL</a></li>
+
+									<li><a href="honeywell.html">WATER HEATER</a></li>
+
+									
+
+								</ul>
+
+							</li>
+
+							<li class="dropdown">
+
+								<a href="portfolio.html"   class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">PORTFOLIO</a>
+
+								<i class="ddl-switch fa fa-angle-down"></i>
+
+								
+
+							</li>
+
+							<li class="dropdown">
+
+								<a href="career.html"   class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">CAREER</a>
+
+								<i class="ddl-switch fa fa-angle-down"></i>
+
+								
+
+							</li>							
+
+							<li class="dropdown">
+
+								<a href="contactus.html"   class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">CONTACT US</a>
+
+								<i class="ddl-switch fa fa-angle-down"></i>
+
+								
+
+							</li>
+
+						</ul>
+
+					</div><!--/.nav-collapse -->
+
+				</nav><!-- nav /- -->
+
+				<!-- Search Box -->
+
+				<div class="search-box">
+
+					<!-- <span><i class="icon_close"></i></span> -->
+
+					<form><input type="text" class="form-control" placeholder="Enter a keyword and press enter..." /></form>
+
+				</div><!-- Search Box /- -->
+
+			</div><!-- Container /- -->
+
+		</div><!-- Menu Block /- -->
+
+		
+
+	</header><!-- Header Section /- -->
+
+	<div class="padding-100"></div>
+
+	<div class="padding-100"></div>
+
+	<!-- <div class="padding-100"></div> -->
+
+	
+
+	</main>
+
+	<div class="container-fluid">
+
+	<div class="row" style="margin-top:-4px;">
+
+	<img src="images/fire/fire-4.jpg">
+
+	</div>
+
+	
+
+	</div>
+
+
+
+	<div class=" ">
+
+  <!-- First row -->
+
+  
+
+  	<h2 style="text-align:center;color:#25408e;">Fire & Security</h2>
+
+	<div class="padding-100"></div>
+
+  <!--<div class="container">
+
+  <div class="row  wow flipInX" >
+
+  
+
+    <div class="col-md-6" >
+
+       <img src="images/fire/DETECTION-&-ALARM.jpg"  style="box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.75);"alt="">
+
+    </div>
+
+    <div class="col-md-6">
+
+         <div class="item-content">
+
+	                        
+
+	                        <h3 class="entry-title m-uppercase">
+
+	                            <a href="#" style="color:black;">ASPIRATING DETECTORS</a>
+
+	                        </h3>
+
+	                        <br>
+
+	                     <p style="line-height:25px;font-size:16px;text-align:justify;"><ul style=" list-style-type: square;font-size:14px;;"><li>Key processing and response for smoke and heat detector inputs.</li></ul>
+
+
+
+	                    </div>
+
+    </div>
+
+    
+
+  </div> </div> 
+
+   <hr>
+
+  <div>
+
+   <div class="container">
+
+    <div class="row wow flipInX"  style="margin-top:20px;">
+
+  
+
+   
+
+    <div class=" col-md-6">
+
+          <div class="item-content">
+
+	                        
+
+	                        
+
+	                        <h3 class="entry-title m-uppercase">
+
+	                            <a href="#" style="color:black;">FIRE FIGHTING PRODUCTS</a>
+
+	                        </h3>
+
+	                        <br>
+
+	   <p style="line-height:25px;font-size:16px;text-align:justify;">Design, installation and servicing of systems designed to decrease damages and increase survival.Design, installation and servicing of systems designed to decrease damages and increase survival.Design, installation and servicing of systems designed to decrease damages and increase survival.Design, installation and servicing of systems designed to decrease damages and increase survival.Design, installation and servicing of systems designed to decrease damages and increase survival.</p>
+
+
+
+	                    </div>
+
+    </div>
+
+	 <div class=" col-md-6" >
+
+        <img src="images/fire/fire-fight.jpg" style="box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.75);" alt="">
+
+    </div>
+
+    
+
+  </div></div></div>-->
+
+  <hr>
+
+   <div>
+
+   <div class="container">
+
+    <div class="row wow flipInX" style="margin-top:20px;">
+
+  <div class=" col-md-6" >
+
+       <img src="images/fire/firetrainers.jpg" style="box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.75);"alt="">
+
+    </div>
+
+    
+
+    <div class=" col-md-6">
+
+         <div class="item-content">
+
+	                        
+
+	                        
+
+	                        <h3 class="entry-title m-uppercase">
+
+	                            <a href="#" style="color:black;">FIRE TRAINERS</a>
+
+	                        </h3>
+
+	                        <br>
+
+	                        <p style="line-height:25px;font-size:16px;text-align:justify;">Design, production and servicing of variable fire fighting simulators for practice of rescuing aircraft accident passengers and crew in a safe, controlled and environmentally sound manner.Design, production and servicing of variable fire fighting simulators for practice of rescuing aircraft accident passengers and crew in a safe, controlled and environmentally sound manner.Design, production and servicing of variable fire fighting simulators for practice of rescuing aircraft accident passengers and crew in a safe, controlled and environmentally sound manner.</p>
+
+
+
+	                    </div>
+
+    </div>
+
+	
+
+     <hr>
+
+  </div>  
+
+  <hr>
+
+  <div class="row wow flipInX" style="margin-top:20px;">
+
+  
+
+    
+
+    <div class=" col-md-6">
+
+         <div class="item-content">
+
+	                        
+
+	                        
+
+	                        <h3 class="entry-title m-uppercase">
+
+	                            <a href="#" style="color:black;">CLEAN AGENTS</a>
+
+	                        </h3>
+
+	                        <br>
+
+	                        <p style="line-height:25px;font-size:16px;text-align:justify;">Our clean agent fire suppression systems help protect critical high-value assets from the threat of fire and minimize downtime and cleanup costs, while addressing environmental considerations.Our clean agent fire suppression systems help protect critical high-value assets from the threat of fire and minimize downtime and cleanup costs, while addressing environmental considerations.
+
+
+
+
+
+
+
+</p>
+
+
+
+	                    </div>
+
+    </div>
+
+	<div class=" col-md-6" >
+
+       <img src="images/fire/clean-agent-fire-extinguisher.jpg" style="box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.75);"alt="">
+
+    </div>
+
+	
+
+     <hr>
+
+  </div>  
+
+  </div> 
+
+  </div>
+
+  
+
+</div> <br>
+
+ <footer>
+
+        <div class="footer_top">
+
+            <div class="container">
+
+                <div class="row" style="padding-left:75px">
+
+                     
+
+                    <!-- End of .col-sm-3 -->
+
+
+
+                    <div class="col-sm-3 col-md-3 col-lg-3 footmenu">
+
+                        <ul style="text-decoration:none !important;color:#fff;">
+
+                            <li><h3 style="color:#fff;">Our Services</h3></li>
+
+                            <li><a href="commercial.html">Air Conditioner</a></li>
+
+                            <li><a href="honeywell.html">Solar Water heater</a></li>
+
+                            <li><a href="tata.html">Roof-top solar power plant</a></li>
+
+                            <li><a href="plumbing&heatpump.html">Plumbing & Heat Pump</a></li>
+
+							
+
+							
+
+                        </ul>
+
+                    </div>
+
+                    <!-- End of .col-sm-3 -->
+
+
+
+                    <div class="col-sm-3 col-md-3 col-lg-3 footmenu">
+
+                        <ul>
+
+                            <li><h3 style="color:#fff;">Quick Links</h3></li>
+
+                            <li><a href="aboutus.html">About Us</a></li>
+
+                            <li><a href="commercial.html">HVAC</a></li>
+
+                            <!--<li><a href="fire&security.html">Fire & Security</a></li>-->
+
+                            <li><a href="plumbing&heatpump.html">Plumbing & Heat Pump</a></li>
+
+							<li><a href="tata.html">Electrical</a></li>
+
+                        </ul>
+
+                    </div>
+
+                    <!-- End of .col-sm-3 -->
+
+
+
+                     <div class="col-sm-3 col-md-3 col-lg-3 footmenu">
+
+                        <ul>
+
+                            <li><h3 style="color:#fff;">Connect with us</h3></li>
+
+                            <li><a href="https://www.facebook.com/saravanaaaircon/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a></li>
+
+                             <li><a href="https://www.linkedin.com/start/join?trk=login_reg_redirect&session_redirect=%2Fcompany-beta%2F13348509%2F" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>Linkedin</a></li>
+
+                           
+
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a></li>
+
+                            <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i>Youtube</a></li>
+
+                            <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i>Pinterest</a></li>
+
+                        </ul>
+
+                    </div>
+
+                    <!-- End of .col-sm-3 -->
+
+
+
+                </div>
+
+                <!-- End of .row -->
+
+            </div>
+
+            <!-- End of .container -->
+
+        </div>
+
+        <!-- End of .footer_top -->
+
+
+
+        <div class="text-center footer_bottom">
+
+	        <h5>copyright 2016. Powered by <a href="http://seehash.com/" >Seehash</a> </h5>
+
+	        <h6></h6>
+
+	    </div>
+
+	    <!-- End of footer_bottom -->
+
+
+
+    </footer>
+
+    <!-- End of footer -->
+
+
+
+	</div><!-- Main Box -->	
+
+	
+
+	<!-- JQuery v1.11.3 -->
+
+	<script src="js/jquery.min.js"></script>
+
+	<script src="libraries/tweecool.js"></script>
+
+	<!-- Library JS -->
+
+	<script src="libraries/lib.js"></script>
+
+	<script src="libraries/lightslider/lightslider.min.js"></script>
+
+	<!-- RS5.0 Core JS Files -->
+
+	<script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min838f.js?rev=5.0"></script>
+
+	<script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min838f.js?rev=5.0"></script>
+
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+
+	
+
+	<script src="libraries/jquery.countdown.min.js"></script>
+
+	<script src="libraries/instafeed/instagramLite.js"></script>
+
+	
+
+	<!-- Library - Google Map API -->
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW40y4kdsjsz714OVTvrw7woVCpD8EbLE"></script>
+
+	
+
+	<!-- Library - Theme JS -->	
+
+	<script src="js/Chart.min.js"></script>	
+
+	<script src="js/jquery.knob.js"></script>
+
+	<script src="js/functions.js"></script>
+
+	<!-- <script src="js/compressed.js"></script> -->
+
+        <script src="js/main.js"></script>
+
+        <script src="js/switcher.js"></script>
+
+	<script src="js/wow.min.js"></script>
+
+              <script>
+
+              new WOW().init();
+
+              </script>
+
+    <script type="text/javascript">
+
+$(document).ready(function(){
+
+    $('[data-toggle="popover"]').popover({
+
+        placement : 'bottom'
+
+    });
+
+});
+
+</script>
+
+</body>
+
+
+
+
+
+</html>
